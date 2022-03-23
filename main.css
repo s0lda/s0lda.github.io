@@ -1,0 +1,50 @@
+body {
+    background-color: aliceblue;
+}
+
+.title {
+    background: rgb(43, 91, 180);
+    border-radius: 10px;
+    width: 96%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 2%;
+}
+
+.side_panel {
+    background-color: rgb(43, 91, 180);
+    width: 200px;
+    border-radius: 10px;
+}
+
+.side_menu {
+    list-style-type: none;
+    font-size: large;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.side_menu_item {
+    background-color: aliceblue;
+    color: rgb(43, 91, 180);
+    width: 70%;
+    place-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 5%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+.side_menu_item:hover {
+    background-color: rgb(70, 70, 70);
+    color: aliceblue;
+}
+
+a:link {
+    text-decoration: none;
+}
