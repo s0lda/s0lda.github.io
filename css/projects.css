@@ -71,4 +71,6 @@ a:link {
     border-radius: 10px;
     width: 100%;
     text-indent: 1%;
+    padding-top: .4%;
+    padding-bottom: .4%;
 }
