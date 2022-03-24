@@ -12,13 +12,13 @@ body {
     padding: 2%;
 }
 
-.side_panel {
+.top_panel {
     background-color: rgb(43, 91, 180);
     width: auto;
     border-radius: 10px;
 }
 
-.side_menu {
+.top_menu {
     list-style-type: none;
     font-size: large;
     padding-top: 1%;
@@ -26,7 +26,7 @@ body {
     display: inline;
 }
 
-.side_menu_item {
+.top_menu_item {
     background-color: aliceblue;
     color: rgb(43, 91, 180);
     width: 20%;
@@ -38,11 +38,12 @@ body {
     padding: 1%;
     margin-bottom: 1%;
     margin-top: 1%;
+    margin-left: 1%;
     display: inline-block;
 
 }
 
-.side_menu_item:hover {
+.top_menu_item:hover {
     background-color: rgb(70, 70, 70);
     color: aliceblue;
 }
