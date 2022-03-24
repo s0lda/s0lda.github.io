@@ -12,16 +12,10 @@ body {
     padding: 2%;
 }
 
-.container {
-    display: inline;
-    width: auto;
-}
-
 .side_panel {
     background-color: rgb(43, 91, 180);
-    width: 200px;
+    width: auto;
     border-radius: 10px;
-    position: absolute;
 }
 
 .side_menu {
@@ -29,21 +23,23 @@ body {
     font-size: large;
     padding-top: 1%;
     padding-bottom: 1%;
+    display: inline;
 }
 
 .side_menu_item {
     background-color: aliceblue;
     color: rgb(43, 91, 180);
-    width: 70%;
-    place-content: center;
+    width: 20%;
     border-radius: 10px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     text-decoration: none;
-    padding: 5%;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    display: inline-block;
+
 }
 
 .side_menu_item:hover {
@@ -61,9 +57,9 @@ a:link {
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 1%;
     border-radius: 10px;
-    margin-left: 220px;
     padding: 1%;
     width: auto;
+    margin-top: 1%;
 }
 
 .main_panel_title {
